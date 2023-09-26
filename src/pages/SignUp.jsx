@@ -20,11 +20,11 @@ function SignUp() {
 
   return (
     <>
-      <div className="flex h-screen sm:bg-[#242742] sm:justify-center sm:items-center font-body">
+      <div className="flex h-screen sm:bg-[#36384D] sm:justify-center sm:items-center font-body">
         <div className="bg-white sm:w-8/12 sm:h-7/12 sm:rounded-3xl grid sm:grid-cols-12 overflow-hidden  sm:items-center">
           <div className="sm:hidden h-fit">
             <img
-              src="/public/assets/images/illustration-sign-up-mobile.svg"
+              src="/assets/images/illustration-sign-up-mobile.svg"
               className="w-full"
             />
           </div>
@@ -38,21 +38,21 @@ function SignUp() {
             <ul className="list-none list-inside pt-1 pb-4">
               <li className="my-2 flex items-center text-lg">
                 <img
-                  src="/public/assets/images/icon-success.svg"
+                  src="/assets/images/icon-success.svg"
                   className="w-5 mr-3 pb-5 sm:pb-0"
                 />
                 Product discovery and building what matters
               </li>
               <li className="my-2 flex items-center text-lg">
                 <img
-                  src="/public/assets/images/icon-success.svg"
+                  src="/assets/images/icon-success.svg"
                   className="w-5 mr-3 pb-5 sm:pb-0"
                 />
                 Measuring to ensure updates are a success
               </li>
               <li className="my-2 flex items-center text-lg">
                 <img
-                  src="/public/assets/images/icon-success.svg"
+                  src="/assets/images/icon-success.svg"
                   className="w-5 mr-3 "
                 />
                 and much more!
@@ -95,7 +95,7 @@ function SignUp() {
           </div>
           <div className="hidden sm:block col-span-5 p-6 ">
             <img
-              src="/public/assets/images/illustration-sign-up-desktop.svg"
+              src="assets/images/illustration-sign-up-desktop.svg"
               className="object-fill h-full w-full"
             />
           </div>

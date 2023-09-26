@@ -9,17 +9,17 @@ function Success() {
   // console.log(data);
   return (
     <>
-      <div className="flex h-screen sm:bg-[#242742] sm:justify-center sm:items-center font-body">
+      <div className="flex h-screen sm:bg-[#36384D] sm:justify-center sm:items-center font-body">
         <div className="bg-white sm:w-4/12 sm:h-7/12 sm:rounded-3xl p-10 sm:p-14 overflow-hidden flex flex-col sm:justify-center justify-between">
           <div className="pt-40 sm:pt-0">
             <div>
-              <img src="/public/assets/images/icon-success.svg" />
+              <img src="/assets/images/icon-success.svg" />
             </div>
             <h1 className="text-5xl sm:text-6xl py-6 font-bold">
               Thanks for subscribing!
             </h1>
             <p>
-              A confirmation email has been sent to{' '}
+              A confirmation email has been sent to
               <span className="font-bold">{`${data.email}`}</span>. Please open
               it and click the button inside to confirm you subscription.
             </p>
